@@ -12,7 +12,7 @@ h1{ font-size: 50px;}
 .half-width img{
     width: 70%;
 }
-.top-bannar{
+.flexible-container{
     display: flex;
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
@@ -36,4 +36,9 @@ h1{ font-size: 50px;}
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.expreance{
+    display: flex;
+    padding: 10px 40px;
+    box-shadow: 2px sandybrown;
 }
